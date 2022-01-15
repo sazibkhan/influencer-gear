@@ -106,3 +106,44 @@ input[type=checkbox]:checked~#menu {
 }
 
 
+
+
+
+
+/* ----------------hero-section style-------------- */
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section {
+    padding-right: 200px;
+}
+
+.left-section h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.left-section p {
+    color: var(--p-color);
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.left-section a {
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 50px;
+    background-color: var(--main-color);
+    transition: .4s;
+}
+
+.left-section a:hover {
+    box-shadow: 5px 5px 10px var(--main-color);
+}
+
+/* ----------------brands-section style-------------- */
