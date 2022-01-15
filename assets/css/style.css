@@ -1,0 +1,108 @@
+/*----------- google-fonts start --------- */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400&family=Ubuntu:wght@500&display=swap');
+
+/* ------------ common ------------ */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-color: #ff0a54;
+    --p-color: #a4a4a7;
+    --footer-color: #0a0826;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+
+/* ------------Navbar Section Style-------------- */
+
+.nav-main {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    position: absolute;
+    top: 0;
+}
+
+.nav-left img {
+    width: 150px;
+    height: 80px;
+}
+
+.nav-right {
+    position: relative;
+    right: -450px;
+}
+
+#icon {
+    border: none;
+}
+
+#icon:hover {
+    color: var(--main-color);
+}
+
+.nav-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.nav-right li {
+    display: inline-block;
+    float: none;
+}
+
+.nav-right li a {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: .5s;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-right li:hover a {
+    border-bottom: 2px solid var(--main-color);
+}
+
+
+.nav-right li:hover ul a:hover {
+    color: #000;
+}
+
+
+.nav-right li ul {
+    display: none;
+}
+
+.show-menu {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+
+
+input[type=checkbox] {
+    display: none;
+}
+
+
+input[type=checkbox]:checked~#menu {
+    display: block;
+}
+
+
