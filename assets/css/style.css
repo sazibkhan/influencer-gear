@@ -21,7 +21,7 @@ body {
 }
 
 
-/* ------------Navbar Section Style-------------- */
+/* ------------navbar section (1)-------------- */
 
 .nav-main {
     display: grid;
@@ -110,7 +110,7 @@ input[type=checkbox]:checked~#menu {
 
 
 
-/* ----------------hero-section style-------------- */
+/* ----------------main section (2)-------------- */
 .main-section {
     display: flex;
     justify-content: center;
@@ -146,4 +146,32 @@ input[type=checkbox]:checked~#menu {
     box-shadow: 5px 5px 10px var(--main-color);
 }
 
-/* ----------------brands-section style-------------- */
+
+/* ---------------- brands section (3)-------------- */
+.brands-main {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 20px;
+    padding: 30px 50px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-image: linear-gradient(to right, rgb(151, 151, 151), rgb(100, 99, 96));
+    border-image-slice: 80 10;
+}
+
+.brands-image {
+    text-align: center;
+}
+
+.brands-image img {
+    transition: .5s;
+}
+
+.brands-image img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+/* ---------------- popular collection section style-------------- */
