@@ -174,4 +174,70 @@ input[type=checkbox]:checked~#menu {
 }
 
 
-/* ---------------- popular collection section style-------------- */
+/* ---------------- popular collection section (4)-------------- */
+.section-title h1 {
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+.collection-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px 60px;
+}
+
+.collection {
+    padding: 10px 15px;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.collection:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.collection .collection-banner img {
+    width: 100%;
+}
+
+.collection-details p {
+    margin: 0;
+}
+
+.fa-star {
+    color: rgba(128, 128, 128, 0.562);
+}
+
+.fillup {
+    color: orange;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+}
+
+.review i {
+    font-size: 12px;
+}
+
+.review span {
+    color: var(--main-color);
+    margin-left: 10px;
+}
+
+.see-more-btn a {
+    float: right;
+    margin-right: 70px;
+    color: var(--main-color);
+    text-decoration: none;
+    transition: .5s;
+}
+
+.see-more-btn a:hover {
+    transform: scale(1.1);
+}
+/* ----------------contact-section style-------------- */
